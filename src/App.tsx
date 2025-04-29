@@ -53,7 +53,6 @@ function App() {
         </h1>
 
         <div className="flex justify-between items-center gap-4 flex-wrap">
-          {/* Select de mostrar */}
           <div className="flex items-center gap-2">
             <label className="text-sm font-semibold text-gray-700">
               Mostrar:
@@ -73,7 +72,6 @@ function App() {
             </select>
           </div>
 
-          {/* Input de buscar */}
           <div className="flex items-center gap-2">
             <input
               type="text"

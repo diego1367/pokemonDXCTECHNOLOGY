@@ -29,7 +29,7 @@ export const PokemonTable = ({ pokemons, onSelect }: Props) => {
                 )}.png`}
                 alt={pokemon.name}
                 className="w-14 h-14 mx-auto cursor-pointer hover:scale-110 transition-transform duration-200"
-                onDoubleClick={() => onSelect(pokemon.name)}
+                onClick={() => onSelect(pokemon.name)}
               />
             </td>
             <td className="px-6 py-4 capitalize font-medium">{pokemon.name}</td>
